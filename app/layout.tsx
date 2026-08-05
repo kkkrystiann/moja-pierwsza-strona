@@ -12,11 +12,12 @@ const geistMono = Geist_Mono({
   subsets: ["latin"],
 });
 
-export const metadata: Metadata = {
-  title: "KMFIT | Trener personalny Warszawa",
+export const metadata = {
+  title: "Gordini | Restauracja w Marina de Cascais",
   description:
-    "Indywidualne treningi personalne, plany treningowe i współpraca online w Warszawie.",
+    "Gordini to elegancka restauracja w Marina de Cascais. Odkryj menu pełne mięs premium, owoców morza, pizzy i sushi.",
 };
+
 
 export default function RootLayout({ children }: LayoutProps<"/">) {
   return (
